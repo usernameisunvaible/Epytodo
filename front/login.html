@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>login</title>
+  <link rel="stylesheet" href="login.css">
+  <script src="script.js"></script>
+</head>
+  <body>
+    <div  class="home_container">
+      <div class="login_div">
+        <label>Email</label> <br>
+        <input type="text" name="email" id ="email" class="email_input"> <br>
+      </div>
+      <div class="password_div">
+        <label>Password</label> <br>
+        <input type="password" name="password" id ="password" class="password_input"><br>
+      </div>
+      <p class="register_redirect">No account ? <a href="/register.html">Sign up !</a></p>
+      
+      <button class="send_button" onclick="login_regiset_submit(['email', 'password'], '/dashboard.html', '/login')">send</button>
+    </div>
+    <p id="wrong" value=" "></p>
+  </body>
+</html>

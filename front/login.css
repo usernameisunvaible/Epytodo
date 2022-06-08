@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    height:100%;
+    background: linear-gradient(blue, pink);
+}
+
+.home_container {
+    position: relative;
+    top: 30%;
+    left: 40%;
+    height: 40%;
+    width: 20%;
+    background-color:rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+}
+
+.send_button {
+    position: relative;
+    top: 35%;
+    left: 30%;
+    color: white;
+}
+
+#wrong {
+    position: relative;
+    top: -20%;
+    left: 47%;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 4px double #cccccc00;
+    border-radius: 10px;
+    height: 10%;
+    width: 40%;
+}
+
+button:hover
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 4px double #cccccc00;
+    border-radius: 10px;
+    height: 10%;
+    width: 40%;
+}
+
+button:active
+{
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 4px double #cccccc00;
+    border-radius: 10px;
+    height: 10%;
+    width: 40%;
+}
+
+input {
+    position: relative;
+    top: 15%;
+    width: 98%;
+    border-radius: 6px;
+    height: 70%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 15px;
+}
+
+input:active {
+    position: relative;
+    top: 15%;
+    width: 98%;
+    border-radius: 6px;
+    height: 70%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    font-size: 15px;
+}
+
+.login_div {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 15%;
+    height: 15%;
+}
+
+
+.password_div {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 25%;
+    height: 15%;
+}
+
+label {
+    color: white;
+}
+
+.register_redirect {
+    position: relative;
+    top: 30%;
+    left: 31%;
+    color: white;
+}
+
+a {
+    color: rgb(22, 22, 192);
+}

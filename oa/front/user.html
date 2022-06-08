@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>user</title>
+  <link rel="stylesheet" href="user.css">
+  <script src="user.js"></script>
+</head>
+<body>
+    <!-- <button onclick="load()">click</button> -->
+    <p id="wrong"></p>
+    <div class="main_container" id="main_div" style="display:none;">
+        <h1 class="main_title">My account</h1>
+        <div class="email_div">
+            <label class="label">Email :</label>
+            <input type="text" class="input">
+            <input type="image" class="edit" src="edit.png">
+        </div>
+        <div class="firstname_div">
+            <label class="label">Firstame :</label>
+            <input type="text" class="input">
+            <input type="image" class="edit" src="edit.png">
+        </div>
+        <div class="name_div">
+            <label class="label">Name :</label>
+            <input type="text" class="input">
+            <input type="image" class="edit" src="edit.png">
+        </div>
+    </div>
+
+    <div class="log_container">
+        <div class="password_div">
+            <label class="log_label">Password</label> <br>
+            <input type="password" name="password" id ="password" class="password_input"><br>
+          </div>
+        <button class="log_button" onclick="check_pass()">Submit</button>
+        
+    </div>
+</body>
+</html>
